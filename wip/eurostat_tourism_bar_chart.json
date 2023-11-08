@@ -1,18 +1,65 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple bar chart with embedded data.",
-  
-    "width": 400,
+
+    "view": {"stroke": null},
+    "width": 600,
     "height": 700,
-  
+
+  "params": [
+    {"name": "Ver",
+    "value": "total_expenditure_per_night_2022",
+    "bind": {
+      "input": "select",
+      "options": ["total_expenditure_per_night_2022", "domestic_country"]
+    }}
+  ],
+
     "data": {
-      "name": "example",
-      "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/eurostat_tourism_expenditure_eu_residents_per_night"
+      "name": "Tourist_Expenditure",
+      "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/eurostat_tourism_expenditure_eu_residents_per_night",
+      "format": {"type": "json"}
     },
-    "mark": "bar",
+
+    "transform": [
+      {
+       "calculate": "datum[Ver]",
+       "as": "xfield" 
+      },
+      {"filter": {"not": {"field": "location", "equal": "European Union"}}}
+    ],
+
+    "title": {
+      "text": "Tourist Expenditure in Europe 2022",
+      "anchor": "start",
+      "fontSize": 24,
+      "dy": -5
+    },
+
     "encoding": {
-      "x": {"field": "total_expenditure_per_night_2022", "type": "quantitative", "axis": {"labelAngle": 0}},
-      "y": {"field": "location", "type": "nominal", "sort": "-x"}
-    }
-  }
-  
+      "x": {
+        "field": "xfield", "type": "quantitative", "title": null,
+        "axis": {"domain": false,"ticks": false, "offset": 5, "labelFlush": false},
+        "scale": {"domain": [0,200]}
+         
+      },
+      "y": {
+        "field": "location", "type": "ordinal", "sort": "-x", "title": null,
+        "axis": {"ticks": false, "labelFontSize": 12}
+      }
+    },
+
+    "layer": [
+      {"mark": {
+        "type": "bar"
+        }
+      },
+      {"mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 3
+        },
+        "encoding": {"text": {"field": "xfield", "format": ".1f"}}
+      }
+    ]
+}
