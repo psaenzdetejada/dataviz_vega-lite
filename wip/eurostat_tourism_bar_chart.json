@@ -51,7 +51,8 @@
 
     "layer": [
       {"mark": {
-        "type": "bar"
+        "type": "bar",
+        "height": {"band": 0.75}
         }
       },
       {"mark": {
