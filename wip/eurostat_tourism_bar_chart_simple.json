@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "view": {"stroke": null},
+  "height": 350,
+  "width": 300,
+  "title": {
+    "text": "How much do tourist spend when travelling in their country?",
+    "anchor": "start",
+    "color": "darkblue",
+    "fontSize": 14,
+    "subtitle": "Euros spent per person per night when travelling in their own country.",
+    "subtitleFontWeight": "lighter",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "params": [
+    {
+      "name": "Measure",
+      "value": "domestic_country",
+      "bind": {"input": "select", "options": ["domestic_country", "OtherValue"]}
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/eurostat_tourism_expenditure_eu_residents_per_night",
+    "format": {"type": "json"},
+    "name": "datasource"
+  },
+  "encoding": {
+    "x": {
+      "field": "domestic_country",
+      "type": "quantitative",
+      "scale": {"domain": [0, 180]},
+      "axis": {
+        "domain": false,
+        "title": "Euros (â‚¬)",
+        "titleBaseline": "line-top",
+        "titleAlign": "center",
+        "ticks": false,
+        "gridOpacity": 0.4,
+        "labelFlush": false
+      }
+    },
+    "y": {
+      "field": "location",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelFontSize": 9,
+        "title": null
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "dodgerblue",
+        "opacity": 0.5,
+        "height": 8
+      }
+    },
+    {
+      "mark": {
+        "type": "tick",
+        "color": "darkblue",
+        "size": 8,
+        "xOffset": -2,
+        "thickness": 4
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 4, "fontSize": 9},
+      "encoding": {"text": {"field": "domestic_country", "format": ".1f"}}
+    }
+  ],
+  "config": {}
+}
