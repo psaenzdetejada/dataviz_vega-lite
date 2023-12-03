@@ -100,7 +100,7 @@
         "opacity": {
           "condition": {
             "test": {
-              "field": "Periodo", "gte": {"year": 2023, "month": "sep", "date": 1}
+              "field": "Periodo", "timeUnit": "yearmonthdate", "oneOf": ["2015-01-01", "2023-09-01"]
             },
             "value": 1
           },
