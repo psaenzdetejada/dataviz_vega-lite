@@ -1,39 +1,111 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Distribución de turistas internacionales en España por país de origen durante noviembre de 2023.",
-    "height": 400,
-    "width": 700,
-    "data": { 
-      "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/tasa_paro_espa%C3%B1a.json",
-      "format": {
-        "type": "json",
-        "parse": {"Periodo": "date", "Tasa de Paro": "number"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Distribución de turistas internacionales en España por país de origen durante noviembre de 2023.",
+  "height": 400,
+  "width": 800,
+
+  "view": {
+    "stroke": "null"
+    },
+
+  "data": { 
+    "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/tasa_paro_espa%C3%B1a.json",
+    "format": {
+      "type": "json",
+      "parse": {"Periodo": "date", "Tasa de paro": "number"}
+    }
+  },
+
+  "title": {
+    "text": "Evolución de la tasa de paro en España",
+    "anchor": "start",
+    "fontSize": 24,
+    "subtitle": "Fuente: INE. Encuesta de Población Activa.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "dy": -10
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Periodo", 
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "domain": true,
+        "ticks": true,
+        "tickOpacity": 0.3,
+        "grid": false,
+        "gridOpacity": 0.3,
+        "labelPadding": 5        
+        }
+      },
+    "y": {
+      "field": "Tasa de paro", 
+      "type": "quantitative",
+      "scale": {
+        
+      },
+      "axis": {
+        "titleFontWeight": "normal",
+        "titleFontSize": 12,
+        "titlePadding": 10,
+        "format": "0%",
+        "grid": true,
+        "gridOpacity": 0.4,
+        "domain": true,
+        "ticks": true,
+        "tickOpacity": 0.3,
+        "tickSize": 5,
+        "values": [0,0.05,0.1,0.15,0.2,0.25,0.3]
       }
     },
-  
-    "title": {
-      "text": "Evolución de la tasa de paro en España",
-      "anchor": "start",
-      "fontSize": 24,
-      "subtitle": "Fuente: INE. Encuesta de Población Activa.",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 11,
-      "dy": -10
-      },
-  
-    "mark": "line", 
-    "encoding": {
-      "x": {
-        "field": "Periodo", 
-        "type": "temporal",
-        "title": null},
-      "y": {
-        "field": "Tasa de paro", 
-        "type": "quantitative",
-        "axis": {
-          "format": "0%"
-        }
+    "tooltip": [
+      {"field": "Periodo", "type": "temporal", "title": "Fecha"},
+      {"field": "Tasa de paro", "format": "0.1%"}
+    ]
+  },
+
+  "layer": [{
+      "mark": {
+        "type": "line",
+        "interpolate": "linear",
+        "color": "black"
       }
-    }
-  }
-  
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "color": "black"
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": {
+              "field": "Periodo", "gte": {"year": 2023, "month": "sep", "date": 1}
+            },
+            "value": 1
+          },
+        "value": 0}
+        }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dx": 20,
+        "dy":-5
+      },
+      "encoding": {
+        "text": {"field": "Tasa de paro", "type": "quantitative", "format": "0.1%"},
+        "opacity": {
+          "condition": {
+            "test": {
+              "field": "Periodo", "gte": {"year": 2023, "month": "sep", "date": 1}
+            },
+            "value": 1
+          },
+        "value": 0}
+      }
+    }     
+  ]
+}
