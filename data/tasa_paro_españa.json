@@ -1,350 +1,350 @@
 [
     {
-        "Periodo": 2023-09-01,
+        "Periodo": "2023-09-01",
         "Tasa de paro": 11.84
     },
     {
-        "Periodo": 2023-06-01,
+        "Periodo": "2023-06-01",
         "Tasa de paro": 11.60
     },
     {
-        "Periodo": 2023-03-01,
+        "Periodo": "2023-03-01",
         "Tasa de paro": 13.26
     },
     {
-        "Periodo": 2022-12-01,
+        "Periodo": "2022-12-01",
         "Tasa de paro": 12.87
     },
     {
-        "Periodo": 2022-09-01,
+        "Periodo": "2022-09-01",
         "Tasa de paro": 12.67
     },
     {
-        "Periodo": 2022-06-01,
+        "Periodo": "2022-06-01",
         "Tasa de paro": 12.48
     },
     {
-        "Periodo": 2022-03-01,
+        "Periodo": "2022-03-01",
         "Tasa de paro": 13.65
     },
     {
-        "Periodo": 2021-12-1,
+        "Periodo": "2021-12-01",
         "Tasa de paro": 13.33
     },
     {
-        "Periodo": 2021-09-01,
+        "Periodo": "2021-09-01",
         "Tasa de paro": 14.57
     },
     {
-        "Periodo": 2021-06-01,
+        "Periodo": "2021-06-01",
         "Tasa de paro": 15.26
     },
     {
-        "Periodo": 2021-03-01,
+        "Periodo": "2021-03-01",
         "Tasa de paro": 15.98
     },
     {
-        "Periodo": 2020-12-01,
+        "Periodo": "2020-12-01",
         "Tasa de paro": 16.13
     },
     {
-        "Periodo": 2020-09-01,
+        "Periodo": "2020-09-01",
         "Tasa de paro": 16.26
     },
     {
-        "Periodo": 2020-06-01,
+        "Periodo": "2020-06-01",
         "Tasa de paro": 15.33
     },
     {
-        "Periodo": 2020-03-01,
+        "Periodo": "2020-03-01",
         "Tasa de paro": 14.41
     },
     {
-        "Periodo": 2019-12-01,
+        "Periodo": "2019-12-01",
         "Tasa de paro": 13.78
     },
     {
-        "Periodo": 2019-09-01,
+        "Periodo": "2019-09-01",
         "Tasa de paro": 13.92
     },
     {
-        "Periodo": 2019-06-01,
+        "Periodo": "2019-06-01",
         "Tasa de paro": 14.02
     },
     {
-        "Periodo": 2019-03-01,
+        "Periodo": "2019-03-01",
         "Tasa de paro": 14.70
     },
     {
-        "Periodo": 2018-12-01,
+        "Periodo": "2018-12-01",
         "Tasa de paro": 14.45
     },
     {
-        "Periodo": 2018-09-01,
+        "Periodo": "2018-09-01",
         "Tasa de paro": 14.55
     },
     {
-        "Periodo": 2018-06-01,
+        "Periodo": "2018-06-01",
         "Tasa de paro": 15.28
     },
     {
-        "Periodo": 2018-03-01,
+        "Periodo": "2018-03-01",
         "Tasa de paro": 16.74
     },
     {
-        "Periodo": 2017-12-01,
+        "Periodo": "2017-12-01",
         "Tasa de paro": 16.55
     },
     {
-        "Periodo": 2017-09-01,
+        "Periodo": "2017-09-01",
         "Tasa de paro": 16.38
     },
     {
-        "Periodo": 2017-06-01,
+        "Periodo": "2017-06-01",
         "Tasa de paro": 17.22
     },
     {
-        "Periodo": 2017-03-01,
+        "Periodo": "2017-03-01",
         "Tasa de paro": 18.75
     },
     {
-        "Periodo": 2016-12-01,
+        "Periodo": "2016-12-01",
         "Tasa de paro": 18.63
     },
     {
-        "Periodo": 2016-09-01,
+        "Periodo": "2016-09-01",
         "Tasa de paro": 18.91
     },
     {
-        "Periodo": 2016-06-01,
+        "Periodo": "2016-06-01",
         "Tasa de paro": 20.00
     },
     {
-        "Periodo": 2016-03-01,
+        "Periodo": "2016-03-01",
         "Tasa de paro": 21.00
     },
     {
-        "Periodo": 2015-12-01,
+        "Periodo": "2015-12-01",
         "Tasa de paro": 20.90
     },
     {
-        "Periodo": 2015-09-01,
+        "Periodo": "2015-09-01",
         "Tasa de paro": 21.18
     },
     {
-        "Periodo": 2015-06-01,
+        "Periodo": "2015-06-01",
         "Tasa de paro": 22.37
     },
     {
-        "Periodo": 2015-03-01,
+        "Periodo": "2015-03-01",
         "Tasa de paro": 23.78
     },
     {
-        "Periodo": 2014-12-01,
+        "Periodo": "2014-12-01",
         "Tasa de paro": 23.70
     },
     {
-        "Periodo": 2014-09-01,
+        "Periodo": "2014-09-01",
         "Tasa de paro": 23.67
     },
     {
-        "Periodo": 2014-06-01,
+        "Periodo": "2014-06-01",
         "Tasa de paro": 24.47
     },
     {
-        "Periodo": 2014-03-01,
+        "Periodo": "2014-03-01",
         "Tasa de paro": 25.93
     },
     {
-        "Periodo": 2013-12-01,
+        "Periodo": "2013-12-01",
         "Tasa de paro": 25.73
     },
     {
-        "Periodo": 2013-09-01,
+        "Periodo": "2013-09-01",
         "Tasa de paro": 25.65
     },
     {
-        "Periodo": 2013-06-01,
+        "Periodo": "2013-06-01",
         "Tasa de paro": 26.06
     },
     {
-        "Periodo": 2013-03-01,
+        "Periodo": "2013-03-01",
         "Tasa de paro": 26.94
     },
     {
-        "Periodo": 2012-12-01,
+        "Periodo": "2012-12-01",
         "Tasa de paro": 25.77
     },
     {
-        "Periodo": 2012-09-01,
+        "Periodo": "2012-09-01",
         "Tasa de paro": 24.79
     },
     {
-        "Periodo": 2012-06-01,
+        "Periodo": "2012-06-01",
         "Tasa de paro": 24.40
     },
     {
-        "Periodo": 2012-03-01,
+        "Periodo": "2012-03-01",
         "Tasa de paro": 24.84
     },
     {
-        "Periodo": 2011-12-01,
+        "Periodo": "2011-12-01",
         "Tasa de paro": 22.56
     },
     {
-        "Periodo": 2011-09-01,
+        "Periodo": "2011-09-01",
         "Tasa de paro": 21.28
     },
     {
-        "Periodo": 2011-06-01,
+        "Periodo": "2011-06-01",
         "Tasa de paro": 20.64
     },
     {
-        "Periodo": 2011-03-01,
+        "Periodo": "2011-03-01",
         "Tasa de paro": 21.08
     },
     {
-        "Periodo": 2010-12-01,
+        "Periodo": "2010-12-01",
         "Tasa de paro": 20.11
     },
     {
-        "Periodo": 2010-09-01,
+        "Periodo": "2010-09-01",
         "Tasa de paro": 19.59
     },
     {
-        "Periodo": 2010-06-01,
+        "Periodo": "2010-06-01",
         "Tasa de paro": 19.89
     },
     {
-        "Periodo": 2010-03-01,
+        "Periodo": "2010-03-01",
         "Tasa de paro": 19.84
     },
     {
-        "Periodo": 2009-12-01,
+        "Periodo": "2009-12-01",
         "Tasa de paro": 18.66
     },
     {
-        "Periodo": 2009-09-01,
+        "Periodo": "2009-09-01",
         "Tasa de paro": 17.75
     },
     {
-        "Periodo": 2009-06-01,
+        "Periodo": "2009-06-01",
         "Tasa de paro": 17.77
     },
     {
-        "Periodo": 2009-03-01,
+        "Periodo": "2009-03-01",
         "Tasa de paro": 17.24
     },
     {
-        "Periodo": 2008-12-01,
+        "Periodo": "2008-12-01",
         "Tasa de paro": 13.79
     },
     {
-        "Periodo": 2008-09-01,
+        "Periodo": "2008-09-01",
         "Tasa de paro": 11.23
     },
     {
-        "Periodo": 2008-06-01,
+        "Periodo": "2008-06-01",
         "Tasa de paro": 10.36
     },
     {
-        "Periodo": 2008-03-01,
+        "Periodo": "2008-03-01",
         "Tasa de paro": 9.60
     },
     {
-        "Periodo": 2007-12-01,
+        "Periodo": "2007-12-01",
         "Tasa de paro": 8.57
     },
     {
-        "Periodo": 2007-09-01,
+        "Periodo": "2007-09-01",
         "Tasa de paro": 8.01
     },
     {
-        "Periodo": 2007-06-01,
+        "Periodo": "2007-06-01",
         "Tasa de paro": 7.93
     },
     {
-        "Periodo": 2007-03-01,
+        "Periodo": "2007-03-01",
         "Tasa de paro": 8.42
     },
     {
-        "Periodo": 2006-12-01,
+        "Periodo": "2006-12-01",
         "Tasa de paro": 8.26
     },
     {
-        "Periodo": 2006-09-01,
+        "Periodo": "2006-09-01",
         "Tasa de paro": 8.08
     },
     {
-        "Periodo": 2006-06-01,
+        "Periodo": "2006-06-01",
         "Tasa de paro": 8.44
     },
     {
-        "Periodo": 2006-03-01,
+        "Periodo": "2006-03-01",
         "Tasa de paro": 9.03
     },
     {
-        "Periodo": 2005-12-01,
+        "Periodo": "2005-12-01",
         "Tasa de paro": 8.71
     },
     {
-        "Periodo": 2005-09-01,
+        "Periodo": "2005-09-01",
         "Tasa de paro": 8.41
     },
     {
-        "Periodo": 2005-06-01,
+        "Periodo": "2005-06-01",
         "Tasa de paro": 9.32
     },
     {
-        "Periodo": 2005-03-01,
+        "Periodo": "2005-03-01",
         "Tasa de paro": 10.17
     },
     {
-        "Periodo": 2004-12-01,
+        "Periodo": "2004-12-01",
         "Tasa de paro": 10.53
     },
     {
-        "Periodo": 2004-09-01,
+        "Periodo": "2004-09-01",
         "Tasa de paro": 10.74
     },
     {
-        "Periodo": 2004-06-01,
+        "Periodo": "2004-06-01",
         "Tasa de paro": 11.09
     },
     {
-        "Periodo": 2004-03-01,
+        "Periodo": "2004-03-01",
         "Tasa de paro": 11.50
     },
     {
-        "Periodo": 2003-12-01,
+        "Periodo": "2003-12-01",
         "Tasa de paro": 11.37
     },
     {
-        "Periodo": 2003-09-01,
+        "Periodo": "2003-09-01",
         "Tasa de paro": 11.30
     },
     {
-        "Periodo": 2003-06-01,
+        "Periodo": "2003-06-01",
         "Tasa de paro": 11.28
     },
     {
-        "Periodo": 2003-03-01,
+        "Periodo": "2003-03-01",
         "Tasa de paro": 11.99
     },
     {
-        "Periodo": 2002-12-01,
+        "Periodo": "2002-12-01",
         "Tasa de paro": 11.61
     },
     {
-        "Periodo": 2002-09-01,
+        "Periodo": "2002-09-01",
         "Tasa de paro": 11.49
     },
     {
-        "Periodo": 2002-06-01,
+        "Periodo": "2002-06-01",
         "Tasa de paro": 11.15
     },
     {
-        "Periodo": 2002-03-01,
+        "Periodo": "2002-03-01",
         "Tasa de paro": 11.55
     }    
 ]
