@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Distribución de turistas internacionales en España por país de origen durante noviembre de 2023.",
+    "height": 400,
+    "width": 700,
+    "data": { 
+      "url": "https://raw.githubusercontent.com/psaenzdetejada/dataviz_vega-lite/main/data/tasa_paro_espa%C3%B1a.json",
+      "format": {
+        "type": "json",
+        "parse": {"Periodo": "date", "Tasa de Paro": "number"}
+      }
+    },
+  
+    "title": {
+      "text": "Evolución de la tasa de paro en España",
+      "anchor": "start",
+      "fontSize": 24,
+      "subtitle": "Fuente: INE. Encuesta de Población Activa.",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 11,
+      "dy": -10
+      },
+  
+    "mark": "line", 
+    "encoding": {
+      "x": {
+        "field": "Periodo", 
+        "type": "temporal",
+        "title": null},
+      "y": {
+        "field": "Tasa de paro", 
+        "type": "quantitative",
+        "axis": {
+          "format": "0%"
+        }
+      }
+    }
+  }
+  
