@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "data": {
+    "values": [
+      {"Probabilidad de voto": "No", "value": 1.5},
+      {"Probabilidad de voto": "Si", "value": 8.5}
+    ]
+  },
+
+  "mark": {
+    "type": "arc", 
+    "innerRadius": 75,
+    "cornerRadius": 30 
+  },
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "sort": "descending"},
+    "color": {
+      "field": "Probabilidad de voto",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "range": ["white", "black"]
+      } 
+    }
+  },
+  
+}
