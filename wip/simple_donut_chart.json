@@ -10,8 +10,8 @@
 
   "mark": {
     "type": "arc", 
-    "innerRadius": 75,
-    "cornerRadius": 30 
+    "innerRadius": 90,
+    "cornerRadius": 5 
   },
   "encoding": {
     "theta": {"field": "value", "type": "quantitative", "sort": "descending"},
