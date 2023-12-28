@@ -52,7 +52,7 @@
     "x": {
       "field": "Tarifa media por habitación ocupada", 
       "type": "quantitative",
-      "scale": {"domain": [0,180]},
+      "scale": {"domain": [0,240]},
       "axis": {
         "domain": true,
         "tickBand": "center",
@@ -63,7 +63,7 @@
         "labelColor": "lightgrey",
         "domainColor": "lightgrey",
         "domainOpacity": 0.3,
-        "tickCount": 10,
+        "tickCount": 14,
         "title": "Tarifa media diaria por habitación ocupada (€)",
         "titleFontWeight": "normal",
         "titleColor": "lightgrey",
