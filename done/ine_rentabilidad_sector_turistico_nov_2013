@@ -1,0 +1,150 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "symbolOpacity": 1,
+      "orient": "bottom-right" ,
+      "direction": "horizontal"
+    },
+    "locale": {"number": {"currency": ["", "\u00a0€"], "decimal": ".", "grouping": [3], "thousands": ","}}
+  },
+
+  "description": "Info from https://ine.es/daco/daco42/prechote/cth1123.pdf",
+
+  "width": 500,
+  "height": 500,
+
+  "title": {
+    "text": "¿Cuál es la tarifa media diaria por habitación ocupada según la categoría de hotel?",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitle": "Evolución entre noviembre de 2022 y noviembre de 2023",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "subtitlePadding": 6,
+    "dy": -10
+  },
+
+  "data": {
+    "values": [
+      {"Tipo": "5 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 151.5, "Orden": 1},
+      {"Tipo": "4 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 80.2, "Orden": 2},
+      {"Tipo": "3 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 54.2, "Orden": 3},
+      {"Tipo": "2 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 32.3, "Orden": 4},
+      {"Tipo": "1 estrella de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 33.0, "Orden": 5},
+      {"Tipo": "3 y 2 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 26.6, "Orden": 6},
+      {"Tipo": "1 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 21.0, "Orden": 7},
+      {"Tipo": "5 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 135.4, "Orden": 1},
+      {"Tipo": "4 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 69.5, "Orden": 2},
+      {"Tipo": "3 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 45.9, "Orden": 3},
+      {"Tipo": "2 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 30.1, "Orden": 4},
+      {"Tipo": "1 estrella de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 26.4, "Orden": 5},
+      {"Tipo": "3 y 2 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 22.6, "Orden": 6},
+      {"Tipo": "1 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 18.1, "Orden": 7}
+    ]
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Tarifa media por habitación ocupada", 
+      "type": "quantitative",
+      "scale": {"domain": [0,180]},
+      "axis": {
+        "domain": true,
+        "tickBand": "center",
+        "grid": true,
+        "gridOpacity": 0.3,
+        "ticks": false,
+        "labelFlush": false,
+        "labelColor": "lightgrey",
+        "domainColor": "lightgrey",
+        "domainOpacity": 0.3,
+        "tickCount": 10,
+        "title": "Tarifa media diaria por habitación ocupada (€)",
+        "titleFontWeight": "normal",
+        "titleColor": "lightgrey",
+        "titleOpacity": 1,
+        "titleFontSize": 13
+      }
+    },
+    "y": {
+      "field": "Tipo", 
+      "type": "nominal",
+      "sort": {
+        "field": "Orden", 
+        "op": "min", 
+        "order": "ascending" 
+      },
+      "axis": {
+        "ticks": false,
+        "title": null,
+        "domain": false,
+        "labelPadding": 5,
+        "labelFontSize": 12
+      }
+    },
+    "color": {
+      "type": "nominal",
+      "scale": {"domain": ["2023", "2022"], "range": ["#952138", "grey"]}
+    }
+  },
+
+  "layer": [
+    {"mark": {
+      "type": "bar",
+      "height": {"band": 0.7},
+      "opacity": 0.5
+    },
+    "transform": [{"filter": {"field": "Fecha", "equal": "2022-11-01"}}],
+    "encoding": {
+      "color": {"datum": "2022"},
+      "tooltip": [
+        {"field": "Tipo", "title": "Categoría de hotel"},
+        {"field": "Tarifa media por habitación ocupada", "title": "Tarifa media diaria por habitación ocupada nov. 2022", "type": "quantitative", "format": "$.1f"}]
+    }
+    },
+    {"mark": {
+      "type": "text",
+      "align": "right",
+      "dx": -5,
+      "dy": -30,
+      "fontSize": 9
+    },
+    "transform": [{"filter": {"field": "Fecha", "equal": "2022-11-01"}}],
+    "encoding": {
+      "color": {"datum": "2022"},
+      "text": {"field": "Tarifa media por habitación ocupada", "format": "$.1f"}
+    }
+    },
+
+    {"mark": {
+      "type": "bar",
+      "height": {"band": 0.4}
+    },
+    "transform": [{"filter": {"field": "Fecha", "equal": "2023-11-01"}}],
+    "encoding": {
+      "color": {"datum": "2023"},
+      "tooltip": [
+        {"field": "Tipo", "title": "Categoría de hotel"},
+        {"field": "Tarifa media por habitación ocupada", "title": "Tarifa media diaria por habitación ocupada nov. 2023", "type": "quantitative", "format": "$.1f"}]
+    }
+    },
+    {"mark": {
+      "type": "text",
+      "align": "left",
+      "dx": 5,
+      "fontSize": 12
+    },
+    "transform": [{"filter": {"field": "Fecha", "equal": "2023-11-01"}}],
+    "encoding": {
+      "color": {"datum": "2023"},
+      "text": {"field": "Tarifa media por habitación ocupada", "format": "$.1f"}
+    }
+    }
+  ]
+
+}
