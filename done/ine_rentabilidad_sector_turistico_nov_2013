@@ -31,20 +31,20 @@
 
   "data": {
     "values": [
-      {"Tipo": "5 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 151.5, "Orden": 1},
-      {"Tipo": "4 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 80.2, "Orden": 2},
-      {"Tipo": "3 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 54.2, "Orden": 3},
-      {"Tipo": "2 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 32.3, "Orden": 4},
-      {"Tipo": "1 estrella de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 33.0, "Orden": 5},
-      {"Tipo": "3 y 2 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 26.6, "Orden": 6},
-      {"Tipo": "1 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 21.0, "Orden": 7},
-      {"Tipo": "5 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 135.4, "Orden": 1},
-      {"Tipo": "4 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 69.5, "Orden": 2},
-      {"Tipo": "3 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 45.9, "Orden": 3},
-      {"Tipo": "2 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 30.1, "Orden": 4},
-      {"Tipo": "1 estrella de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 26.4, "Orden": 5},
-      {"Tipo": "3 y 2 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 22.6, "Orden": 6},
-      {"Tipo": "1 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 18.1, "Orden": 7}
+      {"Tipo": "5 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 228.6, "Orden": 1},
+      {"Tipo": "4 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 109.6, "Orden": 2},
+      {"Tipo": "3 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 82.6, "Orden": 3},
+      {"Tipo": "2 estrellas de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 64.5, "Orden": 4},
+      {"Tipo": "1 estrella de oro", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 69.5, "Orden": 5},
+      {"Tipo": "3 y 2 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 61.8, "Orden": 6},
+      {"Tipo": "1 de plata", "Fecha": "2023-11-01", "Tarifa media por habitación ocupada": 55.1, "Orden": 7},
+      {"Tipo": "5 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 209.4, "Orden": 1},
+      {"Tipo": "4 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 100.6, "Orden": 2},
+      {"Tipo": "3 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 72.5, "Orden": 3},
+      {"Tipo": "2 estrellas de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 60.4, "Orden": 4},
+      {"Tipo": "1 estrella de oro", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 59.1, "Orden": 5},
+      {"Tipo": "3 y 2 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 57.0, "Orden": 6},
+      {"Tipo": "1 de plata", "Fecha": "2022-11-01", "Tarifa media por habitación ocupada": 47.8, "Orden": 7}
     ]
   },
 
