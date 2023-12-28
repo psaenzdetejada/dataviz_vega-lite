@@ -89,7 +89,7 @@
     },
     "color": {
       "type": "nominal",
-      "scale": {"domain": ["2023", "2022"], "range": ["#952138", "grey"]}
+      "scale": {"domain": ["Nov. 2023", "Nov. 2022"], "range": ["#952138", "grey"]}
     }
   },
 
@@ -101,7 +101,7 @@
     },
     "transform": [{"filter": {"field": "Fecha", "equal": "2022-11-01"}}],
     "encoding": {
-      "color": {"datum": "2022"},
+      "color": {"datum": "Nov. 2022"},
       "tooltip": [
         {"field": "Tipo", "title": "Categoría de hotel"},
         {"field": "Tarifa media por habitación ocupada", "title": "Tarifa media diaria por habitación ocupada nov. 2022", "type": "quantitative", "format": "$.1f"}]
@@ -116,7 +116,7 @@
     },
     "transform": [{"filter": {"field": "Fecha", "equal": "2022-11-01"}}],
     "encoding": {
-      "color": {"datum": "2022"},
+      "color": {"datum": "Nov. 2022"},
       "text": {"field": "Tarifa media por habitación ocupada", "format": "$.1f"}
     }
     },
@@ -127,7 +127,7 @@
     },
     "transform": [{"filter": {"field": "Fecha", "equal": "2023-11-01"}}],
     "encoding": {
-      "color": {"datum": "2023"},
+      "color": {"datum": "Nov. 2023"},
       "tooltip": [
         {"field": "Tipo", "title": "Categoría de hotel"},
         {"field": "Tarifa media por habitación ocupada", "title": "Tarifa media diaria por habitación ocupada nov. 2023", "type": "quantitative", "format": "$.1f"}]
@@ -141,7 +141,7 @@
     },
     "transform": [{"filter": {"field": "Fecha", "equal": "2023-11-01"}}],
     "encoding": {
-      "color": {"datum": "2023"},
+      "color": {"datum": "Nov. 2023"},
       "text": {"field": "Tarifa media por habitación ocupada", "format": "$.1f"}
     }
     }
