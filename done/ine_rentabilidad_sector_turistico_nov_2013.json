@@ -21,7 +21,7 @@
     "type": "pad",
     "resize": true,
     "contains": "content"
-  }
+  },
 
 
   "title": {
