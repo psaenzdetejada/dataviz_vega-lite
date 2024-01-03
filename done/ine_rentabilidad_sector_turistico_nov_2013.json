@@ -19,7 +19,7 @@
   "height": 500,
 
   "title": {
-    "text": ["¿Cuál es la tarifa media diaria por","habitación ocupada según la categoría de hotel?"],
+    "text": ["¿Cuál es la tarifa media diaria por habitación","ocupada según la categoría de hotel?"],
     "anchor": "start",
     "fontSize": 16,
     "subtitle": "Evolución entre noviembre de 2022 y noviembre de 2023",
