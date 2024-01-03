@@ -15,12 +15,11 @@
 
   "description": "Info from https://ine.es/daco/daco42/prechote/cth1123.pdf",
 
-  "width": 400,  
-  "height": 500,
+   "height": 500,
   "autosize": {
-    "type": "pad",
+    "type": "fit-y",
     "resize": true,
-    "contains": "content"
+    "contains": "padding"
   },
 
 
