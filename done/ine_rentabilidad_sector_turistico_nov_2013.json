@@ -15,7 +15,7 @@
 
   "description": "Info from https://ine.es/daco/daco42/prechote/cth1123.pdf",
 
-
+  "width": "container",
   "height": 500,
 
   "title": {
