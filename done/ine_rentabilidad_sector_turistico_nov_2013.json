@@ -17,6 +17,7 @@
 
   
   "height": 500,
+  "width": 300,
   "autosize": {
     "type": "fit-x",
     "contains": "content"
