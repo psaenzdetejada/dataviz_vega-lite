@@ -17,10 +17,7 @@
 
   
   "height": 500,
-  "autosize": {
-    "type": "pad",
-    "contains": "padding"
-  },
+  "width": 400,
 
   "title": {
     "text": ["¿Cuál es la tarifa media diaria por habitación","ocupada según la categoría de hotel?"],
