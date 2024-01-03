@@ -15,9 +15,14 @@
 
   "description": "Info from https://ine.es/daco/daco42/prechote/cth1123.pdf",
 
-  
+  "width": 400,  
   "height": 500,
-  "width": 400,
+  "autosize": {
+    "type": "pad",
+    "resize": true,
+    "contains": "content"
+  }
+
 
   "title": {
     "text": ["¿Cuál es la tarifa media diaria por habitación","ocupada según la categoría de hotel?"],
