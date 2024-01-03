@@ -19,7 +19,7 @@
   "height": 500,
   "autosize": {
     "type": "pad",
-    "contains": "content"
+    "contains": "padding"
   },
 
   "title": {
